@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000t\u0000r\u0000a\u0000t\u0000e\u0000g\u0000i\u0000c\u0000G\u0000a\u0000m\u0000e\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anju-nissy-paulose/StrategicGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anju-nissy-paulose/StrategicGame/issues"
+  },
+  "homepage": "https://github.com/anju-nissy-paulose/StrategicGame#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "redis": "^4.6.5",
+    "stripe": "^12.0.0"
+  }
+}
